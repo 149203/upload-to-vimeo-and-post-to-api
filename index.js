@@ -1,9 +1,16 @@
 // Imports API keys from .env file
 require("dotenv").config();
-// Imports presenters list (should get it from an API point in the future)
-// const presenter_list = require('./presenter_list.js');
+const convert_datetime_num_to_str = require("./convert_datetime_num_to_str");
+
+// IMPORTANT - CHANGE THIS DATE!
+
+const event_started_on = 201909141200;
+// BE SURE IT MATCHES THE FOLDER SUFFIX
+
+// END IMPORTANT
+
 const axios = require("axios");
-const presenter_list_API_URL = process.env.PRESENTER_LIST_API;
+const presenter_list_API_URL = `${process.env.PRESENTER_LIST_API}?started_on=${event_started_on}`;
 const post_api = process.env.POST_API;
 const fs = require("fs");
 const Vimeo = require("vimeo").Vimeo;
@@ -15,17 +22,17 @@ const vimeo_account = new Vimeo(
   process.env.VIMEO_ACCESS_TOKEN
 );
 
-const format_date = the_date => {
-  const demo_date = date_fns.format(the_date, "MMMM Do, YYYY");
-  return demo_date;
-};
-
-// Path to folder where videos are located.
-// const files_path = '/Users/devbysalas/Dropbox/DEMO day/real-videos/';
+const event_date_str = date_fns.format(
+  convert_datetime_num_to_str(event_started_on),
+  "MMMM Do, YYYY"
+);
 
 // PUT VIDEOS IN FOLDER THEN UPDATE THIS PATH!
+// then run in the command line: node index.js
 
-const files_path = "../../Users/User/Videos/Demo Day 2019-09-14/";
+const files_path = `../../Users/User/Videos/Demo Day ${event_started_on}/`;
+
+console.log({ post_api, event_date_str, files_path });
 
 // Stores all videos in files_path directory to a variable.
 const all_videos = fs.readdirSync(files_path);
@@ -43,17 +50,12 @@ const vimeo_response = [];
 // Main upload function
 function upload_videos(videos_dir, all_videos, video_info) {
   all_videos.forEach((video, index) => {
-    const demo_date = format_date(video_info[0].event_id.started_on);
     let file_name = `${videos_dir}${video}`;
     vimeo_account.upload(
       file_name,
       {
         name: `${video_info[index].title}`,
-        description: `A presentation by ${
-          video_info[index].member_id.first_name
-        } ${video_info[index].member_id.last_name} at ${
-          video_info[index].event_id.title
-        }, ${demo_date}. See Las Vegas Developers for more: http://developers.vegas`
+        description: `A presentation by ${video_info[index].member_id.first_name} ${video_info[index].member_id.last_name} at ${video_info[index].event_id.title}, ${event_date_str}. See Las Vegas Developers for more: http://developers.vegas`
       },
       function(uri) {
         // callback when completed
@@ -99,7 +101,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
             // Creates a .json file when uploads are done.
             if (vimeo_response.length === video_info.length) {
               console.log(
-                `${demo_date} presentations.json should be ready soon`
+                `${event_date_str} presentations.json should be ready soon`
               );
 
               const vimeo_res_JSON = JSON.stringify(vimeo_response);
@@ -117,7 +119,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
 
               // Creates a .json file where respond from vimeo after upload will be outputted to.
               fs.appendFileSync(
-                `${demo_date} presentations.json`,
+                `${event_date_str} presentations.json`,
                 vimeo_res_JSON
               );
             }
@@ -144,7 +146,7 @@ async function get_presenter_list() {
     const presenter_list = response.data;
     console.log(presenter_list);
     console.log("API call finished");
-    upload_videos(files_path, all_videos, presenter_list);
+    // upload_videos(files_path, all_videos, presenter_list); // COMMENT / UNCOMMENT TO DO STUFF
   } catch (error) {
     console.error(error);
   }
