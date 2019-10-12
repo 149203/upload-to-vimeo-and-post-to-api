@@ -1,0 +1,118 @@
+[
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 257, "first_name": "Dan", "last_name": "Shrout" },
+    "presentation": {
+      "title": "Website hosted on firebase",
+      "is_active": true,
+      "order": 0
+    },
+    "technologies": [
+      { "id": 34, "name": "Firebase", "popularity": 50 },
+      { "id": 117, "name": "Bootstrap", "popularity": 40 },
+      { "id": 1, "name": "JavaScript", "popularity": 60 }
+    ]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 501, "first_name": "Phillip", "last_name": "Duong" },
+    "presentation": { "title": "Quartrly", "is_active": true, "order": 1 },
+    "technologies": [
+      { "id": 63, "name": "MongoDB", "popularity": 50 },
+      { "id": 8, "name": "Angular", "popularity": 50 },
+      { "id": 52, "name": "Java", "popularity": 50 }
+    ]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 195, "first_name": "Sunny", "last_name": "Clark" },
+    "presentation": { "title": "StudioBoss", "is_active": true, "order": 2 },
+    "technologies": [
+      { "id": 66, "name": "Node.js", "popularity": 50 },
+      { "id": 63, "name": "MongoDB", "popularity": 50 },
+      { "id": 117, "name": "Bootstrap", "popularity": 40 }
+    ]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 335, "first_name": "Chad", "last_name": "Columbus" },
+    "presentation": {
+      "title": "Unique identifiers ",
+      "is_active": true,
+      "order": 3
+    },
+    "technologies": [{ "id": 88, "name": "SQL", "popularity": 50 }]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 373, "first_name": "Gunnar", "last_name": "Clovis" },
+    "presentation": {
+      "title": "Flip Stride: 20 Hour Game Jam Game",
+      "is_active": true,
+      "order": 4
+    },
+    "technologies": [
+      { "id": 896, "name": "Game Maker Language", "popularity": 10 },
+      { "id": 7, "name": "Android", "popularity": 50 },
+      { "id": 208, "name": "Windows", "popularity": 40 },
+      { "id": 1, "name": "JavaScript", "popularity": 60 }
+    ]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 447, "first_name": "Walt", "last_name": "Perko" },
+    "presentation": {
+      "title": "RoboGuts STEAM Education Program",
+      "is_active": true,
+      "order": 5
+    },
+    "technologies": [{ "id": 359, "name": "BASIC", "popularity": 20 }]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 212, "first_name": "Dylan", "last_name": "Schwindt" },
+    "presentation": { "title": "Pig Dice Game", "is_active": true, "order": 6 },
+    "technologies": [
+      { "id": 1, "name": "JavaScript", "popularity": 60 },
+      { "id": 26, "name": "CSS", "popularity": 50 },
+      { "id": 47, "name": "HTML", "popularity": 50 }
+    ]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 304, "first_name": "Andrew", "last_name": "Yasso" },
+    "presentation": {
+      "title": "Webview Wrapper",
+      "is_active": true,
+      "order": 7
+    },
+    "technologies": [{ "id": 177, "name": "React Native", "popularity": 40 }]
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 366, "first_name": "Eugene", "last_name": "Bondari" },
+    "presentation": {
+      "title": "How to set a project into grave",
+      "is_active": true,
+      "order": 8
+    }
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 120, "first_name": "Ben", "last_name": "Denzer" },
+    "presentation": {
+      "title": "CallTheScammers.live",
+      "is_active": true,
+      "order": 9
+    }
+  },
+  {
+    "event": { "date": "2019-08-10T19:00:00.000Z" },
+    "member": { "row_id": 142, "first_name": "Mike", "last_name": "Ziethlow" },
+    "presentation": {
+      "title": "Stop PowerPoint Spam. Deliver Better Presentations.",
+      "is_active": true,
+      "order": 10
+    }
+  }
+]

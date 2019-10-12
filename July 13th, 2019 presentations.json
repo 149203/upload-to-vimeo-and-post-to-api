@@ -1,0 +1,263 @@
+[
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba7",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa44",
+      "first_name": "Chad",
+      "last_name": "Columbus"
+    },
+    "title": "MIGasGuys.com",
+    "order": 5,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401043",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401043?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MIGasGuys\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "migasguyscom",
+    "row_id": 6,
+    "signed_up_on": "2019-07-13T22:02:04.198Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba5",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379faa0",
+      "first_name": "Victor",
+      "last_name": "Evangelista"
+    },
+    "title": "Vue.js Wrapper Components",
+    "order": 3,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401046",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401046?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Vue.js Wrapper Components\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "vuejs-wrapper-components",
+    "row_id": 4,
+    "signed_up_on": "2019-07-13T22:02:04.160Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba8",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379fb04",
+      "first_name": "Peter",
+      "last_name": "Antonov"
+    },
+    "title": "Untitled Project",
+    "order": 6,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401048",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401048?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "july-13th-2019-untitled-project-2",
+    "row_id": 7,
+    "signed_up_on": "2019-07-13T22:02:04.221Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba3",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fac7",
+      "first_name": "Lorenz",
+      "last_name": "Madarang"
+    },
+    "title": "Topic Modeling over 500k emails",
+    "order": 2,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401053",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401053?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Topic Modeling over 500k emails\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "topic-modeling-over-500k-emails",
+    "row_id": 3,
+    "signed_up_on": "2019-07-13T22:02:04.132Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba0",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa52",
+      "first_name": "Mike",
+      "last_name": "Ziethlow"
+    },
+    "title": "How to use lodash fp for improved JavaScript readability",
+    "order": 1,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401049",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401049?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"How to use lodash fp for improved JavaScript readability\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "how-to-use-lodash-fp-for-improved-javascript-readability",
+    "row_id": 2,
+    "signed_up_on": "2019-07-13T22:02:04.092Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fbac",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534aa875d3002379f9b4",
+      "first_name": "Dustin",
+      "last_name": "Adair"
+    },
+    "title": "\"Tribble Troubles\" game",
+    "order": 9,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401050",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401050?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Tribble Troubles game\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "tribble-troubles-game",
+    "row_id": 10,
+    "signed_up_on": "2019-07-13T22:02:04.315Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fb9a",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fab1",
+      "first_name": "Tyler",
+      "last_name": "Hanevold"
+    },
+    "title": "Untitled Project",
+    "order": 0,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401047",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401047?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "july-13th-2019-untitled-project",
+    "row_id": 1,
+    "signed_up_on": "2019-07-13T22:02:04.029Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba6",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379fb1c",
+      "first_name": "Joseph",
+      "last_name": "Potechin"
+    },
+    "title": "MyParks.vegas Full Stack MongoDB, Express, Node.js App",
+    "order": 4,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401044",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401044?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MyParks.vegas Full Stack MongoDB, Express, Node.js App\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "myparksvegas-full-stack-mongodb-express-nodejs-app",
+    "row_id": 5,
+    "signed_up_on": "2019-07-13T22:02:04.179Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fbab",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379fb2a",
+      "first_name": "Ariel",
+      "last_name": "Guzman"
+    },
+    "title": "Untitled Project",
+    "order": 8,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401042",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401042?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "july-13th-2019-untitled-project-3",
+    "row_id": 9,
+    "signed_up_on": "2019-07-13T22:02:04.292Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5d2a54dca875d3002379fba9",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6a11b917915043dd9fe",
+      "title": "Demo Day",
+      "started_on": "2019-07-13T19:00:00.000Z"
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379faf9",
+      "first_name": "Walt",
+      "last_name": "Perko"
+    },
+    "title": "RoboGutsS.T.E.A.M. Education Program",
+    "order": 7,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/352401045",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/352401045?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"RoboGutsS.T.E.A.M. Education Program\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>",
+    "slug": "robogutssteam-education-program",
+    "row_id": 8,
+    "signed_up_on": "2019-07-13T22:02:04.239Z",
+    "__v": 0
+  }
+]
+[{"is_active":true,"_id":"5d2a54dca875d3002379fba8","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb04","first_name":"Peter","last_name":"Antonov"},"title":"Untitled Project","order":6,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150581","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150581?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project-2","row_id":7,"signed_up_on":"2019-07-13T22:02:04.221Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba0","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fa52","first_name":"Mike","last_name":"Ziethlow"},"title":"How to use lodash fp for improved JavaScript readability","order":1,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150588","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150588?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"How to use lodash fp for improved JavaScript readability\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"how-to-use-lodash-fp-for-improved-javascript-readability","row_id":2,"signed_up_on":"2019-07-13T22:02:04.092Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fb9a","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fab1","first_name":"Tyler","last_name":"Hanevold"},"title":"Untitled Project","order":0,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150583","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150583?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project","row_id":1,"signed_up_on":"2019-07-13T22:02:04.029Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba3","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fac7","first_name":"Lorenz","last_name":"Madarang"},"title":"Topic Modeling over 500k emails","order":2,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150587","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150587?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Topic Modeling over 500k emails\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"topic-modeling-over-500k-emails","row_id":3,"signed_up_on":"2019-07-13T22:02:04.132Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba6","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb1c","first_name":"Joseph","last_name":"Potechin"},"title":"MyParks.vegas Full Stack MongoDB, Express, Node.js App","order":4,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150589","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150589?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MyParks.vegas Full Stack MongoDB, Express, Node.js App\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"myparksvegas-full-stack-mongodb-express-nodejs-app","row_id":5,"signed_up_on":"2019-07-13T22:02:04.179Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fbab","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb2a","first_name":"Ariel","last_name":"Guzman"},"title":"Untitled Project","order":8,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150580","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150580?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project-3","row_id":9,"signed_up_on":"2019-07-13T22:02:04.292Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba9","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379faf9","first_name":"Walt","last_name":"Perko"},"title":"RoboGutsS.T.E.A.M. Education Program","order":7,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150584","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150584?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"RoboGutsS.T.E.A.M. Education Program\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"robogutssteam-education-program","row_id":8,"signed_up_on":"2019-07-13T22:02:04.239Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fbac","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534aa875d3002379f9b4","first_name":"Dustin","last_name":"Adair"},"title":"\"Tribble Troubles\" game","order":9,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150585","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150585?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Tribble Troubles game\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"tribble-troubles-game","row_id":10,"signed_up_on":"2019-07-13T22:02:04.315Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba5","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379faa0","first_name":"Victor","last_name":"Evangelista"},"title":"Vue.js Wrapper Components","order":3,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150582","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150582?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Vue.js Wrapper Components\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"vuejs-wrapper-components","row_id":4,"signed_up_on":"2019-07-13T22:02:04.160Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba7","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fa44","first_name":"Chad","last_name":"Columbus"},"title":"MIGasGuys.com","order":5,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353150586","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353150586?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MIGasGuys\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"migasguyscom","row_id":6,"signed_up_on":"2019-07-13T22:02:04.198Z","__v":0}][{"is_active":true,"_id":"5d2a54dca875d3002379fb9a","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fab1","first_name":"Tyler","last_name":"Hanevold"},"title":"Untitled Project","order":0,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151068","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151068?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project","row_id":1,"signed_up_on":"2019-07-13T22:02:04.029Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fbab","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb2a","first_name":"Ariel","last_name":"Guzman"},"title":"Untitled Project","order":8,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151073","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151073?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project-3","row_id":9,"signed_up_on":"2019-07-13T22:02:04.292Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba5","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379faa0","first_name":"Victor","last_name":"Evangelista"},"title":"Vue.js Wrapper Components","order":3,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151065","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151065?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Vue.js Wrapper Components\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"vuejs-wrapper-components","row_id":4,"signed_up_on":"2019-07-13T22:02:04.160Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba7","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fa44","first_name":"Chad","last_name":"Columbus"},"title":"MIGasGuys.com","order":5,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151074","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151074?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MIGasGuys\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"migasguyscom","row_id":6,"signed_up_on":"2019-07-13T22:02:04.198Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba3","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fac7","first_name":"Lorenz","last_name":"Madarang"},"title":"Topic Modeling over 500k emails","order":2,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151069","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151069?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Topic Modeling over 500k emails\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"topic-modeling-over-500k-emails","row_id":3,"signed_up_on":"2019-07-13T22:02:04.132Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba6","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb1c","first_name":"Joseph","last_name":"Potechin"},"title":"MyParks.vegas Full Stack MongoDB, Express, Node.js App","order":4,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151071","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151071?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"MyParks.vegas Full Stack MongoDB, Express, Node.js App\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"myparksvegas-full-stack-mongodb-express-nodejs-app","row_id":5,"signed_up_on":"2019-07-13T22:02:04.179Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba8","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379fb04","first_name":"Peter","last_name":"Antonov"},"title":"Untitled Project","order":6,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151066","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151066?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Untitled Project\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"july-13th-2019-untitled-project-2","row_id":7,"signed_up_on":"2019-07-13T22:02:04.221Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fbac","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534aa875d3002379f9b4","first_name":"Dustin","last_name":"Adair"},"title":"\"Tribble Troubles\" game","order":9,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151072","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151072?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"Tribble Troubles game\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"tribble-troubles-game","row_id":10,"signed_up_on":"2019-07-13T22:02:04.315Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba0","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ba875d3002379fa52","first_name":"Mike","last_name":"Ziethlow"},"title":"How to use lodash fp for improved JavaScript readability","order":1,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151067","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151067?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"How to use lodash fp for improved JavaScript readability\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"how-to-use-lodash-fp-for-improved-javascript-readability","row_id":2,"signed_up_on":"2019-07-13T22:02:04.092Z","__v":0},{"is_active":true,"_id":"5d2a54dca875d3002379fba9","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6a11b917915043dd9fe","title":"Demo Day","started_on":"2019-07-13T19:00:00.000Z"},"member_id":{"_id":"5d2a534ca875d3002379faf9","first_name":"Walt","last_name":"Perko"},"title":"RoboGutsS.T.E.A.M. Education Program","order":7,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/353151070","video_iframe":"<iframe src=\"https://player.vimeo.com/video/353151070?badge=0&autopause=0&player_id=0&app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" title=\"RoboGutsS.T.E.A.M. Education Program\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>","slug":"robogutssteam-education-program","row_id":8,"signed_up_on":"2019-07-13T22:02:04.239Z","__v":0}]

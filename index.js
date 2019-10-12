@@ -1,12 +1,13 @@
 // Imports API keys from .env file
-require('dotenv').config();
+require("dotenv").config();
 // Imports presenters list (should get it from an API point in the future)
 // const presenter_list = require('./presenter_list.js');
-const axios = require('axios');
+const axios = require("axios");
 const presenter_list_API_URL = process.env.PRESENTER_LIST_API;
-const fs = require('fs');
-const Vimeo = require('vimeo').Vimeo;
-const date_fns = require('date-fns');
+const post_api = process.env.POST_API;
+const fs = require("fs");
+const Vimeo = require("vimeo").Vimeo;
+const date_fns = require("date-fns");
 
 const vimeo_account = new Vimeo(
   process.env.VIMEO_CLIENT_ID,
@@ -15,13 +16,16 @@ const vimeo_account = new Vimeo(
 );
 
 const format_date = the_date => {
-  const demo_date = date_fns.format(the_date, 'MMMM Do, YYYY');
+  const demo_date = date_fns.format(the_date, "MMMM Do, YYYY");
   return demo_date;
 };
 
 // Path to folder where videos are located.
 // const files_path = '/Users/devbysalas/Dropbox/DEMO day/real-videos/';
-const files_path = '/Users/devbysalas/Dropbox/DEMO day/Videos/';
+
+// PUT VIDEOS IN FOLDER THEN UPDATE THIS PATH!
+
+const files_path = "../../Users/User/Videos/Demo Day 2019-09-14/";
 
 // Stores all videos in files_path directory to a variable.
 const all_videos = fs.readdirSync(files_path);
@@ -53,13 +57,13 @@ function upload_videos(videos_dir, all_videos, video_info) {
       },
       function(uri) {
         // callback when completed
-        console.log('Your video URI is: ' + uri);
+        console.log("Your video URI is: " + uri);
         // Uncomment this request when using developers.vegas vimeo account.
         // Adds videos to a channel.
         vimeo_account.request(
           {
             // Adds video to channel
-            method: 'PUT',
+            method: "PUT",
             path: `/channels/1449073${uri}`
           },
           function(error, body, status_code, headers) {
@@ -73,7 +77,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
         vimeo_account.request(
           {
             // Gets all video info
-            method: 'GET',
+            method: "GET",
             path: uri
           },
           function(error, body, status_code, headers) {
@@ -99,6 +103,18 @@ function upload_videos(videos_dir, all_videos, video_info) {
               );
 
               const vimeo_res_JSON = JSON.stringify(vimeo_response);
+
+              // START POST TO PRESENTATIONS API
+
+              axios
+                .post(post_api, { demo_day_presentations: vimeo_res_JSON }) // post_api is imported at top
+                .then(res => {
+                  console.log("BACK FROM API: ", res.data);
+                })
+                .catch(err => console.log(err.response.data));
+
+              // END POST TO PRESENTATIONS API
+
               // Creates a .json file where respond from vimeo after upload will be outputted to.
               fs.appendFileSync(
                 `${demo_date} presentations.json`,
@@ -110,10 +126,10 @@ function upload_videos(videos_dir, all_videos, video_info) {
       },
       function(bytes_uploaded, bytes_total) {
         var percentage = ((bytes_uploaded / bytes_total) * 100).toFixed(2);
-        console.log(bytes_uploaded, bytes_total, percentage + '%');
+        console.log(bytes_uploaded, bytes_total, percentage + "%");
       },
       function(error) {
-        console.log('Failed because: ' + error);
+        console.log("Failed because: " + error);
       }
     );
   });
@@ -122,12 +138,12 @@ function upload_videos(videos_dir, all_videos, video_info) {
 // upload_videos(files_path, all_videos, presenter_list);
 
 async function get_presenter_list() {
-  console.log('API call started');
+  console.log("API call started");
   try {
     const response = await axios.get(presenter_list_API_URL);
     const presenter_list = response.data;
     console.log(presenter_list);
-    console.log('API call finished');
+    console.log("API call finished");
     upload_videos(files_path, all_videos, presenter_list);
   } catch (error) {
     console.error(error);
