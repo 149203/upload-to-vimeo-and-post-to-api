@@ -4,7 +4,7 @@ const convert_datetime_num_to_str = require("./convert_datetime_num_to_str");
 
 // IMPORTANT - CHANGE THIS DATE!
 
-const event_started_on = 201909141200;
+const event_started_on = 201911091200;
 // BE SURE IT MATCHES THE FOLDER SUFFIX
 
 // END IMPORTANT
@@ -146,7 +146,7 @@ async function get_presenter_list() {
     const presenter_list = response.data;
     console.log(presenter_list);
     console.log("API call finished");
-    // upload_videos(files_path, all_videos, presenter_list); // COMMENT / UNCOMMENT TO DO STUFF
+    upload_videos(files_path, all_videos, presenter_list); // COMMENT / UNCOMMENT TO DO STUFF
   } catch (error) {
     console.error(error);
   }
