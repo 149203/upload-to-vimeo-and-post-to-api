@@ -1,1 +1,783 @@
-[{"is_active":true,"_id":"5dc6fa5d98046000231fe8a2","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6ef1b917915043dda02","title":"Demo Day","started_on":201911091200},"member_id":{"_id":"5dc6fa1e98046000231fe8a1","first_name":"John","last_name":"Tester"},"title":"This is a test project","order":0,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/372095922","video_iframe":"<iframe src=\"https://player.vimeo.com/video/372095922?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"This is a test project\"></iframe>","slug":"this-is-a-test-project","signed_up_on":"2019-11-09T17:41:49.471Z","__v":0},{"is_active":true,"_id":"5dc6fa5d98046000231fe8a3","agreement_id":"5d0e6f4d63f3b43f2830cd4f","has_accepted_agreement":true,"event_id":{"_id":"5ceee6ef1b917915043dda02","title":"Demo Day","started_on":201911091200},"member_id":{"_id":"5dc6f9f498046000231fe8a0","first_name":"Mike","last_name":"Tester"},"title":"Untitled project","order":1,"video_screenshot_url":"https://i.vimeocdn.com/video/default_295x166?r=pad","video_screenshot_with_play_url":"https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png","video_url":"https://vimeo.com/372095921","video_iframe":"<iframe src=\"https://player.vimeo.com/video/372095921?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Untitled project\"></iframe>","slug":"november-9th-2019-untitled-project","signed_up_on":"2019-11-09T17:41:49.512Z","__v":0}]
+[
+  {
+    "is_active": true,
+    "_id": "5dc6fa5d98046000231fe8a2",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc6fa1e98046000231fe8a1",
+      "first_name": "John",
+      "last_name": "Tester"
+    },
+    "title": "This is a test project",
+    "order": 0,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372095922",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372095922?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"This is a test project\"></iframe>",
+    "slug": "this-is-a-test-project",
+    "signed_up_on": "2019-11-09T17:41:49.471Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc6fa5d98046000231fe8a3",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc6f9f498046000231fe8a0",
+      "first_name": "Mike",
+      "last_name": "Tester"
+    },
+    "title": "Untitled project",
+    "order": 1,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372095921",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372095921?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Untitled project\"></iframe>",
+    "slug": "november-9th-2019-untitled-project",
+    "signed_up_on": "2019-11-09T17:41:49.512Z",
+    "__v": 0
+  }
+][
+  ({
+    "is_active": true,
+    "_id": "5dc6ff4de7b43d00234a0fe3",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc6ff29e7b43d00234a0fe2",
+      "first_name": "Matt",
+      "last_name": "Tester"
+    },
+    "title": "Testerapp",
+    "order": 0,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372097944",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372097944?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Testerapp\"></iframe>",
+    "slug": "testerapp",
+    "signed_up_on": "2019-11-09T18:02:53.462Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc6ff4de7b43d00234a0fe4",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc6ff08e7b43d00234a0fe1",
+      "first_name": "Robert",
+      "last_name": "Tester"
+    },
+    "title": "Testerapp",
+    "order": 1,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372097945",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372097945?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Testerapp\"></iframe>",
+    "slug": "testerapp-2",
+    "signed_up_on": "2019-11-09T18:02:53.497Z",
+    "__v": 0
+  })
+][
+  ({
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb48c",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5da2265b631f6c00232c8b9a",
+      "first_name": "Yulia",
+      "last_name": "Knurbein"
+    },
+    "title": "Awesome experience",
+    "order": 9,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441224",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441224?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Awesome experience\"></iframe>",
+    "slug": "awesome-experience",
+    "signed_up_on": "2019-11-11T18:28:09.675Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a9808fe4060023eeb48d",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc0a2c859b3b400236e9671",
+      "first_name": "David",
+      "last_name": "Jam"
+    },
+    "title": "MyPet.net",
+    "order": 10,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441233",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441233?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"MyPet.net\"></iframe>",
+    "slug": "mypetnet",
+    "signed_up_on": "2019-11-11T18:33:36.514Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb486",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5da22355631f6c00232c8b94",
+      "first_name": "Adam",
+      "last_name": "Brikman"
+    },
+    "title": "Personal Library",
+    "order": 8,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441217",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441217?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Personal Library\"></iframe>",
+    "slug": "personal-library",
+    "signed_up_on": "2019-11-11T18:28:09.593Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff2",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379fafe",
+      "first_name": "LB",
+      "last_name": "Corney"
+    },
+    "title": "Simple Web App",
+    "order": 1,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441223",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441223?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Simple Web App\"></iframe>",
+    "slug": "simple-web-app",
+    "signed_up_on": "2019-11-09T22:21:37.749Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ffd",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa99",
+      "first_name": "Jose",
+      "last_name": "Figueroa"
+    },
+    "title": "React Native AR",
+    "order": 5,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441218",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441218?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"React Native AR\"></iframe>",
+    "slug": "react-native-ar",
+    "signed_up_on": "2019-11-09T22:21:37.877Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff3",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa83",
+      "first_name": "Wayne",
+      "last_name": "Wallace"
+    },
+    "title": "Introduction To Emacs",
+    "order": 3,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441228",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441228?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Introduction To Emacs\"></iframe>",
+    "slug": "introduction-to-emacs",
+    "signed_up_on": "2019-11-09T22:21:37.763Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb483",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc9925b8fe4060023eeb47d",
+      "first_name": "Ann",
+      "last_name": "Bernard"
+    },
+    "title": "Start exploring, learning, and growing with the #365firstschallenge App",
+    "order": 7,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/830269752_295x166.jpg?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F830269752_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441227",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441227?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Start exploring, learning, and growing with the #365firstschallenge App\"></iframe>",
+    "slug": "start-exploring-learning-and-growing-with-the-365firstschallenge-app",
+    "signed_up_on": "2019-11-11T18:28:09.556Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a1002",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa44",
+      "first_name": "Chad",
+      "last_name": "Columbus"
+    },
+    "title": "Thanksgiving",
+    "order": 6,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441225",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441225?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Thanksgiving\"></iframe>",
+    "slug": "thanksgiving",
+    "signed_up_on": "2019-11-09T22:21:37.922Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb483",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc9925b8fe4060023eeb47d",
+      "first_name": "Ann",
+      "last_name": "Bernard"
+    },
+    "title": "Start exploring, learning, and growing with the #365firstschallenge App",
+    "order": 7,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/830269752_295x166.jpg?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F830269752_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441227",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441227?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Start exploring, learning, and growing with the #365firstschallenge App\"></iframe>",
+    "slug": "start-exploring-learning-and-growing-with-the-365firstschallenge-app",
+    "signed_up_on": "2019-11-11T18:28:09.556Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff9",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534aa875d3002379f9df",
+      "first_name": "Andrew",
+      "last_name": "Yasso"
+    },
+    "title": "Refactoring for tests",
+    "order": 4,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441220",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441220?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Refactoring for tests\"></iframe>",
+    "slug": "refactoring-for-tests",
+    "signed_up_on": "2019-11-09T22:21:37.844Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a9808fe4060023eeb48f",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa32",
+      "first_name": "Shavonnah",
+      "last_name": "Collins"
+    },
+    "title": "Idea to Deployment",
+    "order": 12,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441231",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Idea to Deployment\"></iframe>",
+    "slug": "idea-to-deployment",
+    "signed_up_on": "2019-11-11T18:33:36.556Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff4",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa52",
+      "first_name": "Mike",
+      "last_name": "Ziethlow"
+    },
+    "title": "Get Characters Between",
+    "order": 2,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441222",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441222?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Get Characters Between\"></iframe>",
+    "slug": "get-characters-between",
+    "signed_up_on": "2019-11-09T22:21:37.777Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff0",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa93",
+      "first_name": "Ben",
+      "last_name": "Denzer"
+    },
+    "title": "Procedure Editor",
+    "order": 0,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372441221",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372441221?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Procedure Editor\"></iframe>",
+    "slug": "procedure-editor",
+    "signed_up_on": "2019-11-09T22:21:37.724Z",
+    "__v": 0
+  })
+][
+  ({
+    "is_active": true,
+    "_id": "5dc9a9808fe4060023eeb48d",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc0a2c859b3b400236e9671",
+      "first_name": "David",
+      "last_name": "Jam"
+    },
+    "title": "MyPet.net",
+    "order": 10,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448742",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448742?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"MyPet.net\"></iframe>",
+    "slug": "mypetnet",
+    "signed_up_on": "2019-11-11T18:33:36.514Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb48c",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5da2265b631f6c00232c8b9a",
+      "first_name": "Yulia",
+      "last_name": "Knurbein"
+    },
+    "title": "Awesome experience",
+    "order": 9,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448740",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448740?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Awesome experience\"></iframe>",
+    "slug": "awesome-experience",
+    "signed_up_on": "2019-11-11T18:28:09.675Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff2",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ca875d3002379fafe",
+      "first_name": "LB",
+      "last_name": "Corney"
+    },
+    "title": "Simple Web App",
+    "order": 1,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448733",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448733?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Simple Web App\"></iframe>",
+    "slug": "simple-web-app",
+    "signed_up_on": "2019-11-09T22:21:37.749Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ffd",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa99",
+      "first_name": "Jose",
+      "last_name": "Figueroa"
+    },
+    "title": "React Native AR",
+    "order": 5,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448729",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448729?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"React Native AR\"></iframe>",
+    "slug": "react-native-ar",
+    "signed_up_on": "2019-11-09T22:21:37.877Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb486",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5da22355631f6c00232c8b94",
+      "first_name": "Adam",
+      "last_name": "Brikman"
+    },
+    "title": "Personal Library",
+    "order": 8,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448730",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448730?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Personal Library\"></iframe>",
+    "slug": "personal-library",
+    "signed_up_on": "2019-11-11T18:28:09.593Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a8398fe4060023eeb483",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc9925b8fe4060023eeb47d",
+      "first_name": "Ann",
+      "last_name": "Bernard"
+    },
+    "title": "Start exploring, learning, and growing with the #365firstschallenge App",
+    "order": 7,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448735",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448735?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Start exploring, learning, and growing with the #365firstschallenge App\"></iframe>",
+    "slug": "start-exploring-learning-and-growing-with-the-365firstschallenge-app",
+    "signed_up_on": "2019-11-11T18:28:09.556Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff4",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa52",
+      "first_name": "Mike",
+      "last_name": "Ziethlow"
+    },
+    "title": "Get Characters Between",
+    "order": 3,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448727",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448727?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Get Characters Between\"></iframe>",
+    "slug": "get-characters-between",
+    "signed_up_on": "2019-11-09T22:21:37.777Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a1002",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa44",
+      "first_name": "Chad",
+      "last_name": "Columbus"
+    },
+    "title": "Thanksgiving",
+    "order": 6,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448734",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448734?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Thanksgiving\"></iframe>",
+    "slug": "thanksgiving",
+    "signed_up_on": "2019-11-09T22:21:37.922Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a9808fe4060023eeb48f",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa32",
+      "first_name": "Shavonnah",
+      "last_name": "Collins"
+    },
+    "title": "Idea to Deployment",
+    "order": 12,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448739",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448739?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Idea to Deployment\"></iframe>",
+    "slug": "idea-to-deployment",
+    "signed_up_on": "2019-11-11T18:33:36.556Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff3",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa83",
+      "first_name": "Wayne",
+      "last_name": "Wallace"
+    },
+    "title": "Introduction To Emacs",
+    "order": 2,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448731",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448731?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Introduction To Emacs\"></iframe>",
+    "slug": "introduction-to-emacs",
+    "signed_up_on": "2019-11-09T22:21:37.763Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff0",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534ba875d3002379fa93",
+      "first_name": "Ben",
+      "last_name": "Denzer"
+    },
+    "title": "Procedure Editor",
+    "order": 0,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448732",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448732?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Procedure Editor\"></iframe>",
+    "slug": "procedure-editor",
+    "signed_up_on": "2019-11-09T22:21:37.724Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc73bf1e7b43d00234a0ff9",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5d2a534aa875d3002379f9df",
+      "first_name": "Andrew",
+      "last_name": "Yasso"
+    },
+    "title": "Refactoring for tests",
+    "order": 4,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448728",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448728?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Refactoring for tests\"></iframe>",
+    "slug": "refactoring-for-tests",
+    "signed_up_on": "2019-11-09T22:21:37.844Z",
+    "__v": 0
+  },
+  {
+    "is_active": true,
+    "_id": "5dc9a9808fe4060023eeb48e",
+    "agreement_id": "5d0e6f4d63f3b43f2830cd4f",
+    "has_accepted_agreement": true,
+    "event_id": {
+      "_id": "5ceee6ef1b917915043dda02",
+      "title": "Demo Day",
+      "started_on": 201911091200
+    },
+    "member_id": {
+      "_id": "5dc0a99459b3b400236e968c",
+      "first_name": "Richard",
+      "last_name": "Kiss"
+    },
+    "title": "aiter: a library for asynchronous iterators",
+    "order": 11,
+    "is_featured": false,
+    "video_screenshot_url": "https://i.vimeocdn.com/video/default_295x166?r=pad",
+    "video_screenshot_with_play_url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2Fdefault_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
+    "video_url": "https://vimeo.com/372448741",
+    "video_iframe": "<iframe src=\"https://player.vimeo.com/video/372448741?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=146228\" width=\"400\" height=\"300\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"aiter a library for asynchronous iterators\"></iframe>",
+    "slug": "aiter-a-library-for-asynchronous-iterators",
+    "signed_up_on": "2019-11-11T18:33:36.534Z",
+    "__v": 0
+  })
+]

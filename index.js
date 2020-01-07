@@ -4,7 +4,7 @@ const convert_datetime_num_to_str = require("./convert_datetime_num_to_str");
 
 // IMPORTANT - CHANGE THIS DATE!
 
-const event_started_on = 201911091200;
+const event_started_on = 202001111200;
 // BE SURE IT MATCHES THE FOLDER SUFFIX
 
 // END IMPORTANT
@@ -27,7 +27,7 @@ const event_date_str = date_fns.format(
   "MMMM Do, YYYY"
 );
 
-// PUT VIDEOS IN FOLDER THEN UPDATE THIS PATH!
+// PUT VIDEOS IN FOLDER!
 // then run in the command line: node index.js
 
 const files_path = `../../Users/User/Videos/Demo Day ${event_started_on}/`;
@@ -95,6 +95,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
               body.pictures.sizes[2].link_with_play_button;
             video_obj.video_url = body.link;
             video_obj.video_iframe = body.embed.html;
+            video_obj.video_id = get_vimeo_id(body.link);
 
             vimeo_response.push(video_obj);
 
@@ -151,4 +152,9 @@ async function get_presenter_list() {
     console.error(error);
   }
 }
+
+function get_vimeo_id(vimeo_url) {
+  return vimeo_url.slice(vimeo_url.lastIndexOf("/") + 1);
+}
+
 get_presenter_list();
