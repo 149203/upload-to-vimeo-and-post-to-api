@@ -1,6 +1,7 @@
 // Imports API keys from .env file
 require("dotenv").config();
 const convert_datetime_num_to_str = require("./convert_datetime_num_to_str");
+const clone_deep = require("lodash/cloneDeep");
 
 // IMPORTANT - CHANGE THIS DATE!
 
@@ -48,14 +49,18 @@ all_videos.sort(function(a, b) {
 const vimeo_response = [];
 
 // Main upload function
-function upload_videos(videos_dir, all_videos, video_info) {
+function upload_videos(videos_dir, all_videos, presenter_list) {
   all_videos.forEach((video, index) => {
     let file_name = `${videos_dir}${video}`;
+    console.log(
+      "has_accepted_agreement:",
+      presenter_list[index].has_accepted_agreement
+    );
     vimeo_account.upload(
       file_name,
       {
-        name: `${video_info[index].title}`,
-        description: `A presentation by ${video_info[index].member_id.first_name} ${video_info[index].member_id.last_name} at ${video_info[index].event_id.title}, ${event_date_str}. See Las Vegas Developers for more: http://developers.vegas`
+        name: `${presenter_list[index].title}`,
+        description: `A presentation by ${presenter_list[index].member_id.first_name} ${presenter_list[index].member_id.last_name} at ${presenter_list[index].event_id.title}, ${event_date_str}. See Las Vegas Developers for more: http://developers.vegas`
       },
       function(uri) {
         // callback when completed
@@ -73,7 +78,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
               console.log(error);
             }
 
-            console.log(body);
+            // console.log(body);
           }
         );
         vimeo_account.request(
@@ -88,7 +93,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
             }
 
             // we create an object per video and add properties with the response from vimeo.
-            const video_obj = video_info[index];
+            const video_obj = clone_deep(presenter_list[index]);
 
             video_obj.video_screenshot_url = body.pictures.sizes[2].link;
             video_obj.video_screenshot_with_play_url =
@@ -100,7 +105,7 @@ function upload_videos(videos_dir, all_videos, video_info) {
             vimeo_response.push(video_obj);
 
             // Creates a .json file when uploads are done.
-            if (vimeo_response.length === video_info.length) {
+            if (vimeo_response.length === presenter_list.length) {
               console.log(
                 `${event_date_str} presentations.json should be ready soon`
               );
@@ -138,14 +143,14 @@ function upload_videos(videos_dir, all_videos, video_info) {
   });
 }
 
-// upload_videos(files_path, all_videos, presenter_list);
-
 async function get_presenter_list() {
   console.log("API call started");
   try {
     const response = await axios.get(presenter_list_API_URL);
-    const presenter_list = response.data;
-    console.log(presenter_list);
+    const presenter_list = response.data.filter(presentation => {
+      return presentation.is_active;
+    });
+    console.log("PRESENTER LIST", presenter_list);
     console.log("API call finished");
     upload_videos(files_path, all_videos, presenter_list); // COMMENT / UNCOMMENT TO DO STUFF
   } catch (error) {
